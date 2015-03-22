@@ -1,0 +1,23 @@
+Source: erlang-ekaf
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
+Build-Depends: debhelper (>= 8.0.0), rebar, erlang-dev, erlang-eunit
+Standards-Version: 3.9.3
+Homepage: https://github.com/helpshift/ekaf/
+
+Package: erlang-ekaf
+Architecture: all
+Depends: erlang-base, erlang-gproc, erlang-kafkamocker
+Description: A minimal, high-performance Kafka client in Erlang.
+ - An erlang implementation of a Producer as per 0.8 Kafka
+   wire protocol;
+ - Produce to a Topic syncronously and asynchronously;
+ - Option to batch messages and customize the concurrency;
+ - Several lazy handling of both metadata requests as well as
+   connection pool creation;
+ - Will automatically buffer when broker goes down and resend,
+   with max downtime size configurable;
+ - Will automatically start/stop workers based on kafka broker
+   additions/changes/downtime;
+ - Callbacks to instrument into your monitoring system.

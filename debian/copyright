@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ekaf
+
+Files: *
+Copyright: 2014, Helpshift, Inc.
+
+License: Apache License, Version 2.0

@@ -1,0 +1,5 @@
+erlang-ekaf (1.5.1-1) unstable; urgency=low
+
+  * Initial release for Debian.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Sun, 22 Mar 2015 15:58:00 +0200
