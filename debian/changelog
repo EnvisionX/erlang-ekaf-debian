@@ -1,3 +1,9 @@
+erlang-ekaf (1.5.3-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Mon, 28 Sep 2015 20:15:00 +0300
+
 erlang-ekaf (1.5.1-1) unstable; urgency=low
 
   * Initial release for Debian.
